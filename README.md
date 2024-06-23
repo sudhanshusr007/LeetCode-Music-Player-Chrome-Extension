@@ -1,4 +1,4 @@
-# LeetCode Music Player
+# LeetCode Music Player Chrome Extension
 
 A Chrome extension for visualizing music data while solving problems on LeetCode.
 
@@ -13,14 +13,14 @@ A Chrome extension for visualizing music data while solving problems on LeetCode
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sudhanshusr007/leetcode-music-player.git
+   git clone https://github.com/sudhanshusr007/leetcode-music-player-chrome-extension.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`.
 
 3. Enable "Developer mode" in the top right corner.
 
-4. Click on "Load unpacked" and select the `leetcode-music-player` directory.
+4. Click on "Load unpacked" and select the `leetcode-music-player-chrome-extension` directory.
 
 5. The extension should now be installed and visible in the extensions toolbar.
 
@@ -52,4 +52,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at (mailto:sudhanshusr007@gmail.com).
+If you have any questions or suggestions, feel free to contact me at sudhanshusr007@gmail.com.
