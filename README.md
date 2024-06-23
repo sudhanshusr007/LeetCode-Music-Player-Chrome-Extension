@@ -1,31 +1,55 @@
 # LeetCode Music Player
 
-This is a simple music player for LeetCode, designed to visualize music data while you solve problems. It includes features like a rating graph, heatmap, height charts, and more.
+A Chrome extension for visualizing music data while solving problems on LeetCode.
 
-## Getting Started
+## Features
 
-To use this music player, follow these steps:
+- **Rating Graph**: Visualize music data with a dynamic rating graph.
+- **Heatmap**: Display a heatmap to represent music intensity.
+- **Height Charts**: Show height charts based on music frequency data.
+- **Activate Music Player**: Start playing music directly without needing to manually start a player.
+
+## Installation
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/sudhanshusr007/leetcode-music-player.git
+   ```
 
-```bash
-git clone https://github.com/sudhanshusr007/leetcode-music-player.git
-```
+2. Open Chrome and navigate to `chrome://extensions/`.
 
-2. Open the `index.html` file in your browser to start using the music player.
+3. Enable "Developer mode" in the top right corner.
+
+4. Click on "Load unpacked" and select the `leetcode-music-player` directory.
+
+5. The extension should now be installed and visible in the extensions toolbar.
 
 ## Usage
 
-- Click on the "Activate Music Player" button to start playing music.
-- The player will automatically visualize music data while you listen and solve problems on LeetCode.
+1. Click on the extension icon in the toolbar to activate the music player.
+
+2. The music player will automatically visualize music data while you solve problems on LeetCode.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome! Please follow the steps below to contribute:
+
+1. Fork the repository.
+
+2. Create a new branch (`git checkout -b feature-branch`).
+
+3. Make your changes.
+
+4. Commit your changes (`git commit -am 'Add new feature'`).
+
+5. Push to the branch (`git push origin feature-branch`).
+
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any inquiries or support, you can reach out to Sudhanshu Srivastava:
-
-- GitHub: [sudhanshusr007](https://github.com/sudhanshusr007)
-- Email: sudhanshusr007@gmail.com
+If you have any questions or suggestions, feel free to contact me at (mailto:sudhanshusr007@gmail.com).
