@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCode Music Player",
+    "version": "1.0",
+    "description": "Turn your LeetCode profile into a music player",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+      }
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["script.js"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  }
+  
